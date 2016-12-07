@@ -1,0 +1,74 @@
+body {
+    color: #444;
+    font-family: Helvetica;
+}
+
+.wrapper {
+    margin: 100px auto 0;
+    overflow: hidden;
+    width: 800px;
+}
+
+#again {
+    background: #ffcc00;
+    border: 0;
+    color: #fff;
+    font-size: 30px;
+    height: 80px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.player {
+    height: 400px;
+    position: relative;
+    text-align: center;
+    width: 400px;
+}
+.player.one {
+    float: left;
+}
+.player.two {
+    float: right;
+}
+
+.player em {
+    color: #999999;
+    font-style: normal;
+}
+.player button {
+    background: #facc88;
+    border: 0;
+    bottom: 20px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    height: 100px;
+    left: 45px;
+    position: absolute;
+    width: 300px;
+}
+
+.player button:hover {
+    opacity: 0.7;
+}
+
+.player span {
+    font-size: 50px;
+}
+
+.player span.new {
+    color: #facc88;
+}
+
+.player button.lose {
+    background: red;
+}
+.player button.win {
+    background: green;
+}
+
+.hidden {
+    display: none;
+}
+

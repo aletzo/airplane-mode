@@ -1,0 +1,76 @@
+#score {
+    font-size: 3em;
+    margin: 20px auto 0;
+    text-align: center;
+    width: 300px;
+}
+
+#board {
+    background: #efefef;
+    height: 600px;
+    margin: 20px auto 0;
+    width: 600px;
+}
+
+#top {
+    background: #d0d0d0;
+}
+#middle {
+    background: #c0c0c0;
+}
+#bottom {
+    background: #b0b0b0;
+}
+
+.row {
+    height: 200px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.row .col {
+    float: left;
+    height: 200px;
+    overflow: hidden;
+    width: 200px;
+}
+.row .col.left {
+}
+.row .col.center {
+}
+.row .col.right {
+}
+
+.row .col .cell {
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    cursor: pointer;
+    float: left;
+    height: 33%;
+    width: 33%;
+}
+
+.row .col .cell.black {
+    background: #999;;
+}
+.row .col .cell.white {
+    background: #fff;
+}
+
+
+.row .col .cell.active {
+    background: orange;
+}
+
+.row .col .cell.target {
+    background: green;
+}
+
+.row .col .cell.win {
+    background: blue;
+}
+.row .col .cell.red {
+    background: red;
+}
+
+
